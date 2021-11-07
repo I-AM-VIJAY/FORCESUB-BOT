@@ -11,4 +11,4 @@ IF YOU ANY PROBLEMS / DOUBTS THEN JOIN :👇
 [![FORCESUB-BOT](https://img.shields.io/badge/@VkTgBotSupport-Group-red?style=for-the-badge&logo=telegram)](https://t.me/VkTgBotSupport)</br></br>
 [![CONTACT DEVELOPER](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/VIJAY1142)
 
-SPECAIL THANKS [@JigarVarma2005](http://t.me/JigarVarma2005)
+🥰 SPECAIL THANKS [@JigarVarma2005](http://t.me/JigarVarma2005)
