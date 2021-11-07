@@ -54,8 +54,9 @@ def _start(client, message):
         reply_to_message_id=message.message_id
         )
             return
-    client.send_message(message.chat.id,
-        text=tr.START_MSG.format(message.from_user.first_name, message.from_user.id),
+    client.send_photo(chat_id=message.chat.id,
+        photo="https://telegra.ph/file/77f93a3b170b0b5af9432.jpg"
+        caption=tr.START_MSG.format(message.from_user.first_name, message.from_user.id),
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
