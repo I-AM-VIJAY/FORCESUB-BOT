@@ -16,6 +16,6 @@ try:
     BASE = declarative_base()
     SESSION = start()
 except AttributeError as e:
-    # this is a dirty way for the work-around required for #23
+    # HEHE ABB TO MAI BHI CHANNEL PER MEMBER BADHAUNGA
     print("DATABASE_URL is not configured. Features depending on the database might have issues.")
     print(str(e))
