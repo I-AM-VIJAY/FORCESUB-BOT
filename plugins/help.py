@@ -17,7 +17,7 @@ def _start(client, message):
             if user.status == "kicked":
                client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/AwesomeSupportt).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/VkTgBotSupport).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -29,7 +29,7 @@ def _start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/{update_channel}")
+                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/VkTgBotz")
                         ]
                     ]
                 ),
@@ -42,11 +42,11 @@ def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/LaylaList"),
-                           InlineKeyboardButton("Support Group", url="https://t.me/AwesomeSupport")
+                           InlineKeyboardButton("JOIN UPDATE AND NEWS✅", url="https://t.me/VKTGBOTZ"),
+                           InlineKeyboardButton("🤖 Support Group", url="https://t.me/VKTGBOTSUPPORT")
                       ],
                      [
-                           InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/HEROGAMERS1")
+                           InlineKeyboardButton("DEVELOPER🥰", url="https://t.me/VIJAY1142")
                      ]
                  ]
              ),
@@ -59,11 +59,11 @@ def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/LaylaList"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/AwesomeSupport")
+                    InlineKeyboardButton("JOIN UPDATE AND NEWS✅", url="https://t.me/VkTgBotz"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/VkTgBotSupport")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/HEROGAMERS1")
+                    InlineKeyboardButton("🥰DEVELOPER", url="https://t.me/VIJAY1142")
                 ]
             ]
         ),
@@ -79,14 +79,14 @@ def _source_code(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Souce Code", url="https://github.com/QueenArzoo/ForceSubAllBot")
+                    InlineKeyboardButton("🎖️SOURCE CODE🎖️", url="https://github.com/QueenArzoo/ForceSubAllBot")
                 ],
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/LaylaList"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/AwesomeSupport")
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/VkTgBotz"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/VkTgBotSupport")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/HEROGAMERS1")
+                    InlineKeyboardButton("DEVELOPER💝", url="https://t.me/VIJAY1142")
                 ]
             ]
         ),
@@ -103,7 +103,7 @@ def _help(client, message):
             if user.status == "kicked":
                client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/AwesomeSupport).",
+                   text="**SORRY SIR, YOU ARE BANNED TO USE ME. CONTACT MY** [Support Group](https://t.me/AwesomeSupport).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -115,7 +115,7 @@ def _help(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/{update_channel}")
+                            InlineKeyboardButton("🎖️Join Updates Channel", url=f"https://t.me/{update_channel}")
                         ]
                     ]
                 ),
@@ -125,7 +125,7 @@ def _help(client, message):
         except Exception:
             client.send_message(
                 chat_id=message.chat.id,
-                text="Hey use this command in my pm. \nFor more help ask in my [Support Group](https://t.me/AwesomeSupport).",
+                text="HEY USE THIS COMMAND IN MY PM. \nFor MORE HELP ASK IN MY [Support Group](https://t.me/VKTGBOTSUPPORT).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
@@ -151,17 +151,17 @@ def help_answer(client, callback_query):
 def map(pos):
     if(pos==1):
         button = [
-            [InlineKeyboardButton(text = '-->', callback_data = "help+2")]
+            [InlineKeyboardButton(text = '👉', callback_data = "help+2")]
         ]
     elif(pos==len(tr.HELP_MSG)-1):
         button = [
-            [InlineKeyboardButton(text = '<--', callback_data = f"help+{pos-1}")]
+            [InlineKeyboardButton(text = '👈', callback_data = f"help+{pos-1}")]
         ]
     else:
         button = [
             [
-                InlineKeyboardButton(text = '<--', callback_data = f"help+{pos-1}"),
-                InlineKeyboardButton(text = '-->', callback_data = f"help+{pos+1}")
+                InlineKeyboardButton(text = '👈', callback_data = f"help+{pos-1}"),
+                InlineKeyboardButton(text = '👉', callback_data = f"help+{pos+1}")
             ],
         ]
     return button
