@@ -8,7 +8,7 @@ from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant, Usern
 UPDATES_CHANNEL = C.UPDATES_CHANNEL
 logging.basicConfig(level=logging.INFO)
 
-@Client.on_message(filters.incoming & filters.command(['start', 'start@ForceSubAllBot']))
+@Client.on_message(filters.incoming & filters.command(['start', 'star@FSUB_VKTGBOT']))
 def _start(client, message):
     update_channel = UPDATES_CHANNEL
     if update_channel:
@@ -42,7 +42,7 @@ def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                           InlineKeyboardButton("JOIN UPDATE AND NEWS✅", url="https://t.me/VKTGBOTZ"),
+                           InlineKeyboardButton("UPDATE AND NEWS✅", url="https://t.me/VKTGBOTZ"),
                            InlineKeyboardButton("🤖 Support Group", url="https://t.me/VKTGBOTSUPPORT")
                       ],
                      [
@@ -59,7 +59,7 @@ def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("JOIN UPDATE AND NEWS✅", url="https://t.me/VkTgBotz"),
+                    InlineKeyboardButton("UPDATE AND NEWS✅", url="https://t.me/VkTgBotz"),
                     InlineKeyboardButton("Support Group", url="https://t.me/VkTgBotSupport")
                 ],
                 [
@@ -72,14 +72,14 @@ def _start(client, message):
         )
 
 
-@Client.on_message(filters.incoming & filters.command(['source_code', 'source_code@ForceSubAllBot']))
+@Client.on_message(filters.incoming & filters.command(['source_code', 'source_code@FSUB_VKTGBOT']))
 def _source_code(client, message):
     client.send_message(message.chat.id,
         text=tr.SC_MSG.format(message.from_user.first_name, message.from_user.id),
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🎖️SOURCE CODE🎖️", url="https://github.com/QueenArzoo/ForceSubAllBot")
+                    InlineKeyboardButton("🎖️SOURCE CODE🎖️", url="https://github.com/I-AM-VIJAY/FORCESUB-BOT")
                 ],
                 [
                     InlineKeyboardButton("Join Updates Channel", url="https://t.me/VkTgBotz"),
@@ -94,7 +94,7 @@ def _source_code(client, message):
         reply_to_message_id=message.message_id
         )
 
-@Client.on_message(filters.incoming & filters.command(['help', 'help@ForceSubAllBot']))
+@Client.on_message(filters.incoming & filters.command(['help', 'help@FSUB_VKTGBOT']))
 def _help(client, message):
     update_channel = UPDATES_CHANNEL
     if update_channel:
@@ -103,7 +103,7 @@ def _help(client, message):
             if user.status == "kicked":
                client.send_message(
                    chat_id=message.chat.id,
-                   text="**SORRY SIR, YOU ARE BANNED TO USE ME. CONTACT MY** [Support Group](https://t.me/AwesomeSupport).",
+                   text="**SORRY SIR, YOU ARE BANNED TO USE ME. CONTACT MY** [Support Group](https://t.me/VkTgBotz).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -111,7 +111,7 @@ def _help(client, message):
         except UserNotParticipant:
             client.send_message(
                 chat_id=message.chat.id,
-                text="**Please Join My Updates Channel to use this Bot!**",
+                text="**1st YOU CAN JOIN MY CHANNEL. PLEASE JOIN MY UPDATES CHANNEL FOR USE ME!**",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
