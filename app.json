@@ -35,7 +35,7 @@
             "required": false
         },
         "SUDO_USERS": {
-            "description": "Sudo users (Goto @JVToolsBot and send /id to get your id)",
+            "description": "Sudo users (Go and start @PRO_VK_ROBOT and send /id to get your id)",
             "value": "2075923551",
             "required": false
         }
