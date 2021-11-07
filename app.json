@@ -1,7 +1,7 @@
 {
-    "name": "ForceSubAllBot",
-    "description": "Python based bot to Force Users to sub a channel.",
-    "logo": "",
+    "name": "FORCESUB-BOT",
+    "description": "PYTHON BASED BOT THIS BOT FORCE USERS TO SUBSCRIBE YOUR CHANNEL.",
+    "logo": "https://telegra.ph/file/65aa41f49fb9a74f87797.jpg",
     "keywords": [
         "telegram",
         "pyrogram",
@@ -10,9 +10,9 @@
         "Forcesub",
         "ForceSubBot"
     ],
-    "repository": "https://github.com/QueenArzoo/ForceSubAllBot",
-    "website": "https://t.me/LaylaList",
-    "success_url": "https://t.me/LaylaList",
+    "repository": "https://github.com/I-AM-VIJAY/FORCESUB-BOT",
+    "website": "https://t.me/VkTgBotz",
+    "success_url": "https://t.me/VkTgBotz",
     "env": {
         "API_HASH": {
             "description": "You API HASH from my.telegram.org",
@@ -36,7 +36,7 @@
         },
         "SUDO_USERS": {
             "description": "Sudo users (Goto @JVToolsBot and send /id to get your id)",
-            "value": "797768146",
+            "value": "2075923551",
             "required": false
         }
     },
