@@ -19,14 +19,15 @@ class Messages():
       HELP_MSG = [
         ".",
 
-        "**Force Subscribe**\n__Force group members to join a specific channel before sending messages in the group.\nI will mute members if they not joined your channel and tell them to join the channel and unmute themself by pressing a button.__",
+        "**🏷️FORCE SUBSCRIBE BOT**\n**🎖️ FORCE GROUP MEMBERS TO JOIN A SPECIFIC CHANNEL BEFORE SENDING MESSAGES IN THE GROUP.\n🎖️I wiYll MUTE MEMBERS IF THEY NOT JOINED YOUR CHANNEL AND TELL THEM TO JOIN THE CHANNEL AND UNMUTEING THEMSELF BY PRESSING A BUTTON.**",
         
-        "**Setup**\n__First of all add me in the group as admin with ban users permission and in the channel as admin.\nNote: Only creator of the group can setup me and i will leave the chat if i am not an admin in the chat.__",
+        "**🏷️SETUP**\n**FIRST OF ALL ADD ME IN THE GROUP AS ADMIN WITH BAN USERS PERMISSION AND IN THE CHANNEL AS ADMIN.\n⚠️NOTE: ONLY  OF THE GROUP CAN SETUP ME AND I WILL LEAVE THE CHAT IF I AM NOT AN ADMIN IN THE CHAT.**",
         
-        "**Commmands**\n__/ForceSubscribe - To get the current settings.\n/ForceSubscribe no/off/disable - To turn of ForceSubscribe.\n/ForceSubscribe {channel username or channel ID} - To turn on and setup the channel.\n/ForceSubscribe clear - To unmute all members who muted by me.\n/source_code - To get bot source code😍\n\nNote: /FSub is an alias of /ForceSubscribe__",
+        "**✅COMMANDS**\n__/ForceSubscribe = TO GET THE CURRENT SETTINGS.\n/ForceSubscribe no/off/disable = TO TURN OF FORCESUBSCRIBE.\n/ForceSubscribe {channel username or channel ID} = TO TURN ON AND SETUP THE CHANNEL.\n/ForceSubscribe clear = TO UNMUTE ALL MEMBERS WHO MUTED BY ME.\n/source_code = TO GET BOT SOURCE CODE😍\n\nNote: /FSub IS AN ALIAS OF /ForceSubscribe__",
         
-       "**Developer @HEROGAMERS1 \nDevloped By @LaylaList \nSupport Group @AwesomeSupport**"
+       "**🤖I AM [FORCESUB-BOT](http://t.me/FSUB_VKTGBOT) \n🎖️ DEVELOPER = @vijay1142 \nDEVELOPED BY = @VKTGBOTZ \nSupport GROUP = @VKTGBOTSUPPORT**"
       ]
       SC_MSG = "**Hey [{}](tg://user?id={})**\n click on below👇 button to get my source code, for more help ask in my support group👇👇 "
 
-      START_MSG = "**Hey [{}](tg://user?id={})**\n__I can force members to join a specific channel before writing messages in the group.\nLearn more at /help__"
+      START_MSG = "**Hey [{}](tg://user?id={})**\n**I CAN FORCE MEMBERS TO JOIN A SPECIFIC CHANNEL BEFORE WRITING MESSAGES IN THE GROUP.\nCLICK HERE >> /help**"
+   
